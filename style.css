@@ -1,0 +1,397 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./fontes/Inter/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction:column;
+}
+
+/*-----Cabeçalho------*/ 
+
+header {
+    font-family: 'Inter';
+    height: 58px;
+    background-color:#000000;
+    display: flex;
+    gap: 12px;    
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.logo {
+    width: 133px;
+    height: auto;
+}
+
+.container-menu {
+    width: 100%;
+    height: auto;
+}
+
+.container-menu ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.container-menu ul li {
+    color: #FFFFFF;
+    font-size: 1.6rem;
+}
+
+.container-menu a {
+    color: #FFFFFF;
+}
+
+.container-pesquisa {   
+    height: 38px;
+    gap: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-pesquisa input {
+    width: 170px;
+    height: 38px;
+    background-color: #FFFFFF;
+}
+
+.container-pesquisa input::placeholder {
+    font-size: 1.5rem;
+    padding-left: 15px;
+    color: #6C757D;
+}
+
+.container-pesquisa button {
+    width: 80px;
+    height: 37px;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+/*-----Banner-----*/
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*-----Categorias-----*/
+
+.container-categoria {
+    width: 100%;
+    height: auto;
+    margin-top: 72px;
+    padding-left: 165px;
+    padding-right: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container-categoria h1 {
+    font-family: 'Inter';
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: #212529;
+}
+
+.container-cards-categoria {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    gap: 32px;
+}
+
+.card-categoria img {
+    width: 160px;
+    height: 157px;
+}
+
+.card-categoria h2 {
+    padding: 8px;
+    width: 160px;
+    height: 35px;
+    font-size: 1.6rem;
+    font-family: 'Inter';
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+
+/*------Produtos------*/
+
+.container-produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: auto;
+    margin-top: 48px;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.container-produtos h2 {
+    width: 100%;
+    height: 100%;
+    font-size: 3.2rem;
+    font-family: 'Inter';
+    font-weight: 500;
+    text-align: center;
+}
+
+.container-cards-produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.card-produtos {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.13);
+    width: 350px;
+    height: 615px;
+}
+
+.card-produtos img {
+    border-radius: 4px 4px 0px 0px ;
+}
+
+.card-produtos h3 {
+    font-family: 'Inter';
+    font-size: 1.6rem;
+    font-weight: 700;
+    height: 49px;
+    padding: 13px 112px 13px 16px;
+    color: #212529;
+}
+
+.produtos-descricao {
+    font-family: 'Inter';
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 2px 16px 10px 16px;
+    color: #212529;
+}
+
+.preco {
+    font-family: 'Inter';
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 23px;
+    padding: 2px 16px 16px 16px;
+}
+
+.btn {
+    font-family: 'inter';
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 19.36px;
+    width: 102px;
+    height: 37px;
+    padding: 9px 16px 9px 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    background-color: #9353FF;
+}
+
+/*------Facilidades------*/
+
+.container-facilidades {
+    margin-top: 84px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 439px 40px 439px;
+    background-color: #000000;
+    gap: 32px;
+}
+
+.container-facilidades h2 {
+    height: 100%;
+    width: auto;
+    font-family: 'Inter';
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 38.73px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.container-cards-facilidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 976px;
+    height: 100%;
+    gap: 32px;
+}
+
+.card-facilidades {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+}
+
+.card-facilidades img {
+    width: 72px;
+    height: 72px;
+}
+
+.container-texto-icone {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.container-texto-icone h3{
+    color: #DAFF01;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.container-texto-icone p {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*------Newsletter------*/
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 321px;
+}
+
+.container-newsletter {
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    height: 190px;
+    width: 729px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.container-newsletter p{
+    height: auto;
+    width: 100%;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: center;
+}
+
+.container-cadastro-newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+.container-cadastro-newsletter input {
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    width: 456px;
+    height: 38px;
+    background-color: #FFFFFF;
+
+}
+
+.container-cadastro-newsletter input::placeholder {
+    color: #6C757D;
+    font-family: 'Inter';
+    line-height: 23px;
+    font-size: 1.6rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.container-cadastro-newsletter button {
+    font-family: 'inter';
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 19.36px;
+    width: 84px;
+    height: 38px;
+    padding: 9px 16px 9px 16px;
+    background-color: #9353FF;
+}
+
+/*------Rodapé------*/
+
+footer {
+    background-color: #000000;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer h3 {
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+
+
