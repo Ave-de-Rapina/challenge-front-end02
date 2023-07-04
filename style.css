@@ -85,12 +85,12 @@ header {
 
 /*-----Banner-----*/
 
-.banner {
+.swiper {
     width: 100%;
     height: auto;
 }
 
-.banner img {
+.project-img img {
     width: 100%;
     height: auto;
 }
@@ -232,6 +232,124 @@ header {
     background-color: #9353FF;
 }
 
+/*------Modal Produtos------*/
+
+.container-modal-produtos {
+    width: 700px;
+    height: 522px;
+    padding: 16px 16px 32px 16px;
+    display: flex;  
+}
+
+.imagem-produto {
+    width: 350px;
+    height: 422px;
+}
+
+.container-informacao-modal {
+    width: 100%;
+    height: auto;
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.nome-produto {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #212529;
+}
+.descricao-produto {
+    width: 100%;
+    height: auto;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#212529;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 16px;
+}
+
+.valor-produto {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    color: #212529;
+}
+
+.vendedor-produto{
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ADB5BD;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 16px;
+}
+
+.size-select {
+    background-color: goldenrod;
+    width: auto;
+    height: 93px;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.size-select legend {
+    background-color: red;
+
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+   
+    
+}
+
+.size-select label {
+    width: 13px;
+    height: 41px;
+    background-color: #6C757D;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #212529;
+    align-items: baseline;
+}
+
+.size-select label input{
+    width: 15px;
+    height: 15px;
+    background-color: #DAFF01;
+    display: flex;
+    align-items: baseline;
+
+}
+
+.botao-adicionar-sacola {
+    margin-top: 16px;
+    width: 180px;
+    height: 37px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    color: #FFFFFF;
+    background-color: #9353FF;
+    padding: 9px 16px 9px 16px;
+
+}
+
 /*------Facilidades------*/
 
 .container-facilidades {
@@ -371,6 +489,62 @@ header {
     padding: 9px 16px 9px 16px;
     background-color: #9353FF;
 }
+
+/*-----Modal newslatter-----*/
+
+dialog {
+    padding: 0px;
+    border-radius: 4px;
+    border: none;
+}
+
+.container-modal {
+    width: 700px;
+    height: 65px;
+    padding:  18px 28px 18px 16px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container-modal img {
+    width: 32px;
+    height: 32px;
+}
+
+.container-modal h2 {
+    width: 568px;
+    font-family: 'Inter';
+    font-size: 2.0rem;
+    font-weight: 500;
+    line-height: 24.2px;
+    color: #FFFFFF;
+}
+
+.modal-close {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    text-align: center;
+    color:#6C757D;
+}
+
+.text-newsletter {
+    width: 700px;
+    height: 71px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color:  #212529;
+    padding: 16px 16px 32px 16px;
+    
+}
+
+
+
 
 /*------Rodapé------*/
 
