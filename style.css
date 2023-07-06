@@ -291,49 +291,113 @@ header {
     padding-bottom: 16px;
 }
 
-.size-select {
-    background-color: goldenrod;
-    width: auto;
+/*------Modal Cores-------*/
+
+.container-form-cores {
+    width: 100%;
     height: 93px;
-    display: flex;
- 
-    align-items: center;
-    justify-content: space-between;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #D8D8D8;
 }
 
-.size-select legend {
-    background-color: red;
+.color-select {
+    width: 100%;
+    height: 100%;
+    height: 100;
+    display: flex;   
+    align-items: end;
+    gap: 16px;
+}
 
+.color-select legend {
+    width: 100%;
+    height: auto;
     font-family: 'Inter';
     font-size: 13px;
     font-weight: 700;
     line-height: 20px;
-   
-    
 }
 
-.size-select label {
-    width: 13px;
+.container-cores {
+    width: 189px;
     height: 41px;
-    background-color: #6C757D;
     display: flex;
-    flex-direction: column;
     gap: 16px;
+}
+
+.color-select label {
+    width: auto;
+    height: 41px;
     font-family: 'Inter';
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
     color: #212529;
-    align-items: baseline;
+    display: flex;
+    align-items: center ;
+    text-align: center;
+    gap: 8px;
+    flex-direction: column;
 }
 
 .size-select label input{
-    width: 15px;
-    height: 15px;
-    background-color: #DAFF01;
-    display: flex;
-    align-items: baseline;
+    width: 13px;
+    height: 13px;
+}
 
+/*------Modal Tamanhos-------*/
+
+.container-form-tamanhos {
+    width: 100%;
+    height: 93px;
+}
+
+.size-select {
+    width: 100%;
+    height: 100%;
+    height: 100;
+    display: flex;   
+    align-items: end;
+    gap: 16px;
+}
+
+.size-select legend {
+    width: 100%;
+    height: auto;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+
+.container-tamanhos {
+    width: 143px;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.size-select label {
+    width: 13px;
+    height: 41px;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #212529;
+    display: flex;
+    align-items: center ;
+    text-align: center;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.size-select label input{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
 }
 
 .botao-adicionar-sacola {
@@ -347,7 +411,6 @@ header {
     color: #FFFFFF;
     background-color: #9353FF;
     padding: 9px 16px 9px 16px;
-
 }
 
 /*------Facilidades------*/
